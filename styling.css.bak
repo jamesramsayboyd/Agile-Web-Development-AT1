@@ -1,5 +1,30 @@
 h3
 {
 	font-style: bold;
-	font-family: 'Comic Sans MS';
+}
+
+body
+{
+	
+}
+
+#navigation
+{
+	background-color: lightblue;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#assessment
+{
+	background-color: lightblue;
+	padding: 20px;
+	width: 200px;
+	text-decoration-line: underline; 
+}
+
+th, td
+{
+	padding: 15px;
 }
