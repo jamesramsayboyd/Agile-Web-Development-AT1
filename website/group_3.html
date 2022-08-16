@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<! James Boyd
+   30041547
+   Agile Web Development AT1 ><html>
+<head>
+<title> Questions: Group 3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styling.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<div class="container-fluid">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link link" href="index.html">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Questions</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="group_1.html">Group 1</a></li>
+<li><a class="dropdown-item" href="group_2.html">Group 2</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class=" nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Definitions</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="group_3.html">Group 3</a></li>
+<li><a class="dropdown-item" href="group_4.html">Group 4</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link link" href="contact.html">Contact</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<div id="accordion">
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_1">
+Authentication and web security:
+</a>
+</div>
+<div id="question_1" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+Before sensitive data is transmitted over the web the identity of the user submitting or accessing it should be verified. It is necessary to perform a process of authentication to make sure the user is who they say they are, which is often accomplished by questioning the user about something they should know (such as a security question) or something they should have (e.g. a username and password, or a physical token).
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_2">
+Hypertext transfer protocol (HTTP):
+</a>
+</div>
+<div id="question_2" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+The protocol used to transfer data over the World Wide Web. It uses a server-client model, where the client (e.g. a personal computer or mobile device) running an internet browser sends a request to a server (the web host running a website on server software such as Apache), which will respond with an HTTP status code. For example, an HTTP code of 200 indicates a successful request, and will result in the server sending the data to display the desired webpage in the browser.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_3">
+Session management:
+</a>
+</div>
+<div id="question_3" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+A session is defined as a series of HTTP transactions initiated by a single user, that typically starts when the user authenticates their identity (through the use of a password, for example). Session management is the process of handling these multiple requests, which may be sensitive in nature, while maintaining security and continuity with the same user.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_4">
+Stateless programming:
+</a>
+</div>
+<div id="question_4" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+A program is said to be ‘stateless’ when it does not take information about the last session (data such as user configuration settings or transaction information) into the next session. The HTTP protocol used for websites is an example of stateless programming, where no information is maintained from session to session, and countermeasures such as cookies must be used to maintain a state between web pages.
+</div>
+</div>
+</div>
+</body>
+</html>

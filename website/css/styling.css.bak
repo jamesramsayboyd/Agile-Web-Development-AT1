@@ -1,0 +1,27 @@
+h3
+{
+	font-style: bold;
+}
+
+body
+{
+	
+}
+
+#info_block
+{
+	color: #F0FFFF;
+	background-color: #0D6EFD;
+	padding: 15px;
+}
+
+th, td
+{
+	padding: 15px;
+}
+
+h1
+{
+	padding: 15px;
+	font-style: bold;
+}

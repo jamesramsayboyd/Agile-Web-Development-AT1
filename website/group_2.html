@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<! James Boyd
+   30041547
+   Agile Web Development AT1 ><html>
+<head>
+<title> Questions: Group 2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styling.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<div class="container-fluid">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link link" href="index.html">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Questions</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="group_1.html">Group 1</a></li>
+<li><a class="dropdown-item" href="group_2.html">Group 2</a></li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Definitions</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="group_3.html">Group 3</a></li>
+<li><a class="dropdown-item" href="group_4.html">Group 4</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a class="nav-link link" href="contact.html">Contact</a>
+</li>
+</ul>
+</div>
+</nav>
+
+<div id="accordion">
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_1">
+What are programming controls and design structures?
+</a>
+</div>
+<div id="question_1" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+The three basic types of programming controls are Sequence (the order in which statements are read by the compiler), Selection (which statements are compiled, governed by set conditions) and Iteration (the repetition of a statement a set number of times). Programming should be structured in such a way as to improve the clarity of code and reduce the development time of a project by, for example, using Iteration constructs (while and for loops) or Selection constructs (if/else) to keep code simple and concise and minimise repetition.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_2">
+What are website testing procedures?
+</a>
+</div>
+<div id="question_2" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+<ul>
+<li>Functional Testing: A type of black-box testing that focuses solely on the user experience and the results of data entry without looking at the underlying code.</li>
+<li>Usability Testing: A combination of testing the user experience with the overall functionality of the website. A method is devised that will test all aspects of the site (such as content and navigation), and the application is improved after analysis of the results.</li>
+<li>Interface Testing: Checks all communication processes between the application server and web server, as well as testing that all error messages are displayed correctly.</li>
+<li>Compatibility Testing: Checks that the website functions correctly across different browsers (e.g. Google Chrome, Microsoft Edge), devices (e.g. desktop, smartphone, tablet) and operating systems (e.g. Windows, iOS).</li>
+<li>Performance Testing: Tests that the application performs well and responds promptly to user input. This can involve testing the application to see how it behaves at varying internet connection speeds, simulating normal and peak loads, and stress testing to determine the how much load the application can sustain before breaking.</li>
+<li>Security Testing: Checks to ensure the application is secure against malicious actions, for example by testing whether pages that should be secure can be accessed without authorisation or that open sessions are closed after a user leaves the site (or after a period of inactivity).</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_3">
+What are website debugging methods?
+</a>
+</div>
+<div id="question_3" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+<p>The first step to debugging a running website is to open the console (usually accessed by pressing the F12 key in a browser), granting access to information on the site’s performance and allowing the developer to see the underlying HTML code and monitor any error messages. The developer console can also be used to simulate a different device format, such as testing a smartphone screen layout within a desktop browser.</p>
+Third party website debugging tools such as Google’s Search Console are also available that can provide extensive status reports and automatically identify any errors.
+</div>
+</div>
+</div>
+
+<div class="card">
+<div class="card-header">
+<a class="btn" data-bs-toggle="collapse" href="#question_4">
+What are website coding techniques?
+</a>
+</div>
+<div id="question_4" class="collapse" data-bs-parent="#accordion">
+<div class="card-body">
+The basic structure of a web page is written in HTML, typically with a separate HTML file for each page of the site (though pages can be automatically generated from templates for more complex websites). Styling for the website (e.g. colours, margins, padding) should be abstracted out to a single separate CSS file which can be referenced in the HTML files. More complex site functionality, such as automatically-resizing components, can be accomplished using plugins such as Bootstrap. PHP code can be embedded into HTML documents to execute SQL queries to a connected MySQL database.
+</div>
+</div>
+</div>
+</body>
+</html>
